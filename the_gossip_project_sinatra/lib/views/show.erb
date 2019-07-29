@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Page Potins</title>
+	</head>
+	<body>
+		<h1>Voici la page du potin n°<%= (params['index'].to_i) %> !</h1>
+        <p>
+        	
+          Son auteur : <%= gossips.author %><br/>
+          Le contenu du potin : <%= gossips.content %>
+        	
+        </p>
+      
+		<a href="/gossips/id/edit/">Rajoutes ton grin de sel</a></br>
+
+
+		<a href="/">Actu des potins!</a>		
+	</body>
+</html>
